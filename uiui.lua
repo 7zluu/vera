@@ -1199,7 +1199,7 @@ local function populateTabs(pages, gui)
         end
 
         Controls.Section(p, "Imagen de fondo")
-        local imgInput = Controls.TextInput(p, "URL o rbxassetid://", "rbxassetid://XXXXXX", "", function(v)
+        local imgInput = Controls.TextInput(p, "URL o rbxassetid://", "rbxassetid://128793089163759", "", function(v)
             local t = Theme._current
             t.BgImage = v
             Theme:Apply(nil) -- don't change theme, just re-fire
